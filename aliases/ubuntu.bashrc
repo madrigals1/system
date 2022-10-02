@@ -22,7 +22,7 @@ alias dls="docker images"
 alias dvs="docker volume ls"
 alias dclean="docker volume ls -q -f dangling=true && docker system prune -af"
 
-# Python
+# Django
 alias psh="pipenv shell"
 alias rs="./manage.py runserver --noreload"
 alias mm="./manage.py makemigrations"
